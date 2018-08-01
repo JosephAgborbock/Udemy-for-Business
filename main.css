@@ -1,0 +1,395 @@
+body{min-height:200vh;}
+.navbar-default{
+  transition: 300ms ease;
+  background: transparent;
+  font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.a{
+	font-size: 18px; 
+	color: #000; 
+	line-height: 1.5;
+}
+
+.hero {
+	height: 90vh;
+	border: 1px solid #bebbbb;
+	background-image: linear-gradient(to bottom left, rgba(26, 38, 58, 1) 0%, rgba(26, 38, 58, .8) 20%);
+	background-position: center;
+	background-size: cover;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 15px;
+	padding: 0px;	
+	margin-bottom: 10px;
+}
+
+.navbar{
+  padding: 14px 0px;
+  height: 80px;
+  background-color: solid color;
+  border: none;
+  color: #fff;
+  z-index: 100;
+  transition: background-color 1s ease 0s;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: all;
+  transition-timing-function: ease;
+}
+
+.nav li{
+	background-color: transparent !important;
+	color: #fff;
+    transition: color 1s ease 0s;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/*Affixed to top*/
+.affix{
+	background: #000;
+	padding: 0px 0px!important; 
+	width: 100%;
+	transition-delay: 0s;
+	height: 70px;
+	margin: 0px;
+	transition-duration: 0.3s;
+	transition-property: all;
+	transition-timing-function: ease;
+}
+
+.top-header-section {
+	text-decoration-style: inline-block;
+	color: #443959;
+	font-size: 20px;
+}
+.main-text {
+	text-align: left;
+	font-size: 50px;
+	color: #fff;
+	padding-left: 10%;
+	padding-top: 10%;
+	
+}
+
+.subtext{
+    text-align: left;
+    padding-left: 10%;
+    position: relative;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #fff;
+    padding-top: 30px;
+}
+
+#btn-danger {
+   margin-top: 5%;
+   border-radius: 0px;
+   border: 10px 20px 30px;
+
+}
+
+.nav navbar-nav navbar-right {
+	 background-color: #0a1269;
+}
+
+.navbar-default .navbar-brand {
+	padding-right: 30px;
+}
+
+.navbar-custom .nav li a {
+    font-weight: 400;
+    letter-spacing: none;
+
+}
+
+.navbar-custom .nav li a, .navbar-custom .navbar-toggle {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fff;
+	text-transform: capitalize;
+}
+
+.navbar-custom .nav li a, .navbar-custom .navbar-toggle {
+	color: rgb(223, 219, 219);
+}
+
+.navbar btn btn-danger {
+	padding-top: 2px;
+}
+
+#div.pull-right{
+	padding-left: 20px;
+	text-align: center;
+}
+
+.navbar-brand page-scroll {
+	padding-right: 20px;
+	line-height: 20px;
+	text-decoration: underline;
+}
+
+.container-fluid {
+	padding-left: 10px;
+}
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  input{
+	font-size:16px !important;
+  }
+}
+
+#mainNav.navbar navbar-custom navbar-default navbar-fixed-top {
+	margin: 0px;
+}
+
+#div.row{
+	 padding-right: 20%;
+}
+
+#about-section.main-section{
+	padding-top: 15px;
+}
+
+.top-box {
+	height: 29vh;
+	margin-top: -25px;
+	text-align: center;
+	padding-left: 10px;
+	border-spacing: 10px;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: rgb(110, 101, 101);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-menu {
+    line-height: 10px;
+    padding-top: 15px;
+}
+
+.rated-course{
+	height: 65px;
+	text-align: center;
+	color: #007791;
+	font-size: 17px;
+	padding-top: 0px;
+
+}
+
+.card-header {
+	height: 35vh;
+    color: #3359df;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-family: dinpromedium;
+}
+
+.card-footer {
+	padding-bottom: 20%;
+	padding-top: 10px;
+	margin-left: 60px;
+	font-family: sans-serif;
+	font-size: 18px;
+	border-spacing: 10px;
+}
+
+
+.partner {
+	height: 35vh;
+	text-align: center;
+	background-color: #fff;
+	padding-top: 40px;
+	margin-left: 0px;
+	padding-left: 10px; 
+}	
+
+.text{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+ .getstarted{
+ 	height: 55vh;
+	background-color: #e7e5e5;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 50px;
+}
+
+.learning-platform {
+	padding-top: 15px;
+}
+
+.video-section {
+	height: 80vh;
+    background-image: linear-gradient(to bottom left, #EC5252 0%,#6E1A52 100%);
+    padding-top: 5%;
+    font-weight: 20px;
+}
+
+.product-overview {
+     text-align: center;
+     color: #fff;
+     font-size: 18px;
+     padding: 5px 5px 10px;
+     border-radius: 20px;
+}
+
+.real-world {
+	height: 85vh;
+	background-repeat: no-repeat;
+	background-position: bottom-left;
+	background-size: 40%;
+	text-align: center;
+}
+
+.learn-world {
+	font-size: 13px;
+	text-align: left;
+}
+.learn-header {
+    text-align: left;
+    padding-top: 15px;
+}
+.office-header {
+	text-align: left;
+	padding-top: 15px;
+}
+
+.cisco-security {
+    font-size: 12px;
+    line-height: 18px;
+    color: #607887;
+    padding-left: 0px;	
+    padding-top: 0px;
+    text-align: left;
+}
+
+.star {
+	 color: #e9f547;
+	 text-align: left;
+ }
+ .instructors {
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.learns-udemy {
+	height: 80vh;
+	background-color: #007791;
+	padding-top: 20px;
+}
+
+.img {
+	width: 100px;
+	padding-top: 50px;
+	padding-right: 20px;
+	
+}
+
+.card-info {
+	justify-content: center;
+	padding-top: 20px;
+	padding-right: 100px;
+	color: rgb(241, 233, 233);
+	font-size: 25px;
+	line-height: 35px;
+	font-size: italic;
+	margin-bottom: 20px;
+}
+
+.footer-section{
+	height: 75vh;
+	background-color: rgba(26, 38, 58, 1);
+	padding-top: 35px;
+	padding-left: 20px;
+}
+
+.trusted {
+ font-size: 24px;
+}
+
+.text-getstarted {
+    color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.start-btn {
+ 	display: flex;
+ 	justify-content: center;
+ 	padding: 15px 20px;
+ }
+
+.footer-text {
+    color: #fff;
+    text-align: center;
+}
+
+ .custom-btn{
+	 border: transparent;
+	 padding-top: 15px 20px;
+	 margin-top: 50px;
+	 z-index: 100;
+	 background-color: #ec5252;
+	 color: #fff;
+ }
+
+.copy-right a{
+	text-align: none;
+	padding: 30px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer-condition {
+	text-align: right;
+	color: #fff;
+	padding-top: 64px;
+	padding-left: 20%;
+}
+
+.social-media-icons ul {
+    list-style: none;
+    padding: 0px;
+    text-align: right;
+}
+
+.social-media-icons a {	
+	display: inline-block;
+	text-decoration: none;
+	padding: 7px;
+}
+
+.social-media-icons a:nth-child(1) i {
+	color: #d34836;
+}
+
+.social-media-icons a:nth-child(2) i {
+	color: #4099FF;
+}
+
+.social-media-icons a:nth-child(3) i {
+	color: #b31217;
+}
+
+.social-media-icons a:nth-child(4) i {
+	color: #FF6600;
+}
+
+.social-media-icons a i:hover{
+	color: black;
+}
